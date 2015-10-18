@@ -24,10 +24,15 @@ public class Sort {
     private Date endTime;
 
     public Sort(int[] data) {
-        this.data = data;
+        this.data = new int[data.length];
+        for(int i = 0; i < data.length; i++) {
+            this.data[i] = data[i];
+        }
     }
 
-    ;
+    
+    
+    
     
     public int[] getSortedArray() {
         return this.data;

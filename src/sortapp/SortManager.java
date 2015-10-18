@@ -24,6 +24,7 @@ public class SortManager {
     }
 
     private void initBubbleSort() {
+        System.out.println("--- bubble sort ---");
         this.printData();
         BubbleSort bubble = new BubbleSort(this.data);
         bubble.sort();
@@ -32,6 +33,7 @@ public class SortManager {
     }
 
     private void initQuickSort() {
+        System.out.println("--- quick sort ---");
         this.printData();
         QuickSort quicksort = new QuickSort(this.data);
         quicksort.sort();
@@ -40,6 +42,7 @@ public class SortManager {
     }
 
     private void initInsertSort() {
+        System.out.println("--- insert sort ---");
         this.printData();
         InsertSort insertsort = new InsertSort(this.data);
         insertsort.sort();

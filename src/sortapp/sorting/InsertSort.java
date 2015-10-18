@@ -34,7 +34,6 @@ public class InsertSort extends Sort implements SortingInterface {
                 this.data[j] = key;
                 j = j - 1;
             }
-
         }
     }
 
