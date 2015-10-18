@@ -34,11 +34,11 @@ public class Sort {
     }
 
     public void printSortedArray() {
-        System.out.println("");
+        System.out.println("Dane po posortowaniu:");
         for (int i : data) {
             System.out.print(i + " ");
         }
-        System.out.println("");
+        System.out.println("---");
     }
 
     protected void setStartTime() {
